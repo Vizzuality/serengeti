@@ -16,6 +16,7 @@ Switch.prototype = {
       var chosen = $(this).val();
       window.AppData.SPECIE = chosen.toLowerCase();
       self._changeImage(chosen);
+      Event.trigger('refresh');
     });
   },
 
