@@ -1,0 +1,371 @@
+/* Main style for Serengeti application */
+/* line 7, ../scss/main.scss */
+body, html {
+  width: 100%;
+  height: 100%;
+  min-width: 500px;
+  font-family: 'Open Sans', Arial;
+}
+
+/* line 10, ../scss/main.scss */
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: block;
+  height: 50px;
+  padding: 20px;
+  background: white;
+  z-index: 50;
+  -webkit-box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.05);
+  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.05);
+  /* specie */
+  /* filters */
+  /* dates */
+}
+/* line 22, ../scss/main.scss */
+header span.separator {
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  width: 1px;
+  height: 50px;
+  margin: 0 9px;
+  background: #CCCCCC;
+}
+/* line 30, ../scss/main.scss */
+header p {
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  margin: 0;
+  font-size: 21px;
+  color: #333333;
+  line-height: 50px;
+}
+/* line 33, ../scss/main.scss */
+header div.specie {
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+}
+/* line 36, ../scss/main.scss */
+header div.specie span.image {
+  position: relative;
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  width: 50px;
+  height: 50px;
+  margin: 0;
+  background: #999;
+  background-size: 50px 50px;
+  background-origin: 50% 50%;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  border-radius: 50px;
+}
+/* line 47, ../scss/main.scss */
+header div.specie span.image.wildebeest {
+  background: url("../img/wildebeest.png") no-repeat 0 0;
+}
+/* line 48, ../scss/main.scss */
+header div.specie span.image.hyena {
+  background: url("../img/hyena.png") no-repeat 0 0;
+}
+/* line 49, ../scss/main.scss */
+header div.specie span.image.zebra {
+  background: url("../img/zebra.png") no-repeat 0 0;
+}
+/* line 50, ../scss/main.scss */
+header div.specie span.image.buffalo {
+  background: url("../img/buffalo.png") no-repeat 0 0;
+}
+/* line 51, ../scss/main.scss */
+header div.specie span.image.human {
+  background: url("../img/human.png") no-repeat 0 0;
+}
+/* line 56, ../scss/main.scss */
+header div.time_frame {
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+}
+/* line 61, ../scss/main.scss */
+header div.dates {
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+}
+/* line 63, ../scss/main.scss */
+header div.dates div.date {
+  position: relative;
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+}
+/* line 66, ../scss/main.scss */
+header div.dates div.date input {
+  position: relative;
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  width: 130px;
+  padding: 0;
+  line-height: 22px;
+  font-size: 21px;
+  font-family: 'Open Sans', Arial;
+  color: #399DEB;
+  border: none;
+}
+/* line 76, ../scss/main.scss */
+header div.dates div.date input:hover {
+  cursor: pointer;
+}
+/* line 77, ../scss/main.scss */
+header div.dates div.date input:active {
+  outline: none;
+}
+/* line 78, ../scss/main.scss */
+header div.dates div.date input:focus {
+  outline: none;
+}
+/* line 80, ../scss/main.scss */
+header div.dates div.date p {
+  margin: 0 5px;
+}
+/* line 81, ../scss/main.scss */
+header div.dates div.date span.arrow {
+  position: absolute;
+  top: 24px;
+  right: 1px;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid #399DEB;
+}
+
+/* line 94, ../scss/main.scss */
+div#map {
+  position: absolute;
+  top: 90px;
+  left: 0;
+  right: 0;
+  bottom: 90px;
+  background: #EDEDED;
+  z-index: 10;
+}
+
+/* line 106, ../scss/main.scss */
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 90px;
+  background: white;
+  z-index: 50;
+  -webkit-box-shadow: 0 -10px 10px 0 rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: 0 -10px 10px 0 rgba(0, 0, 0, 0.05);
+  box-shadow: 0 -10px 10px 0 rgba(0, 0, 0, 0.05);
+}
+/* line 117, ../scss/main.scss */
+footer a.button {
+  position: absolute;
+  top: -20px;
+  left: 50%;
+  margin-left: -37px;
+  background: white;
+}
+/* line 125, ../scss/main.scss */
+footer span.current_date {
+  position: absolute;
+  bottom: 33px;
+  left: 50%;
+  width: 150px;
+  margin-left: -75px;
+  font-weight: bold;
+  text-align: center;
+  font-size: 13px;
+  color: #333333;
+  z-index: 100;
+}
+/* line 138, ../scss/main.scss */
+footer #slider {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  width: 456px;
+  height: 6px;
+  margin-left: -228px;
+  border: none;
+  z-index: 1000;
+}
+/* line 148, ../scss/main.scss */
+footer #slider .ui-slider-handle {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  margin-top: -6px;
+  background: #399DEB;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+  border: 3px solid white;
+  -webkit-transform-style: "linear";
+  -moz-transform-style: "linear";
+  -ms-transform-style: "linear";
+  -o-transform-style: "linear";
+  transform-style: "linear";
+  -webkit-transition-property: box-shadow;
+  -moz-transition-property: box-shadow;
+  -o-transition-property: box-shadow;
+  transition-property: box-shadow;
+  -webkit-transition-duration: 250ms;
+  -moz-transition-duration: 250ms;
+  -o-transition-duration: 250ms;
+  transition-duration: 250ms;
+}
+/* line 160, ../scss/main.scss */
+footer #slider .ui-slider-handle.ui-state-hover, footer #slider .ui-slider-handle.ui-state-hover {
+  outline: none;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0 0 10px 5px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.1) 0 0 10px 5px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 0 10px 5px;
+}
+
+/* line 171, ../scss/main.scss */
+a.button {
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  padding: 0 16px;
+  margin: 0;
+  font-weight: bold;
+  font-size: 15px;
+  color: #0099EE;
+  border: 2px solid #399DEB;
+  line-height: 30px;
+  text-decoration: none;
+  text-transform: uppercase;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  border-radius: 20px;
+}
+/* line 184, ../scss/main.scss */
+a.button:hover {
+  color: #2D7CBA;
+  border-color: #2D7CBA;
+}
+/* line 189, ../scss/main.scss */
+a.button:active {
+  color: #1E527B;
+  border-color: #1E527B;
+}
+
+/* line 197, ../scss/main.scss */
+#ui-datepicker-div {
+  background: white;
+  border: 1px solid #ABABAB;
+  padding: 1px;
+}
+
+/* line 198, ../scss/main.scss */
+.ui-datepicker-header {
+  height: 38px;
+  background: white;
+  border-color: #399DEB;
+}
+
+/* line 199, ../scss/main.scss */
+.ui-datepicker-title {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  right: 20px;
+  text-align: center;
+  color: #666;
+  font-size: 16px;
+  z-index: 0;
+}
+
+/* line 200, ../scss/main.scss */
+.ui-datepicker-calendar thead th {
+  padding-top: 10px;
+  font-weight: normal;
+  font-size: 14px;
+}
+
+/* line 201, ../scss/main.scss */
+.ui-datepicker-calendar table {
+  background: white;
+}
+
+/* line 202, ../scss/main.scss */
+.ui-datepicker-calendar td a {
+  background: none !important;
+  border: none !important;
+  font-weight: normal;
+  font-size: 15px;
+}
+
+/* line 203, ../scss/main.scss */
+.ui-datepicker-prev {
+  position: absolute;
+  text-indent: -9999px;
+  left: 8px;
+  top: 14px;
+  width: 0;
+  height: 0;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-right: 5px solid #399DEB;
+}
+
+/* line 204, ../scss/main.scss */
+.ui-datepicker-next {
+  position: absolute;
+  text-indent: -9999px;
+  right: 8px;
+  top: 14px;
+  width: 0;
+  height: 0;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 5px solid #399DEB;
+}

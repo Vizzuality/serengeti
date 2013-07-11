@@ -1,0 +1,12 @@
+/* App styles helpers */
+/* line 6, ../scss/helpers.scss */
+.left {
+  float: left;
+  width: auto;
+}
+
+/* line 7, ../scss/helpers.scss */
+.right {
+  float: right;
+  width: auto;
+}
