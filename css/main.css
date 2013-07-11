@@ -307,6 +307,7 @@ a.button:active {
 
 /* line 198, ../scss/main.scss */
 .ui-datepicker-header {
+  width: 180px;
   height: 38px;
   background: white;
   border-color: #399DEB;
@@ -325,18 +326,23 @@ a.button:active {
 }
 
 /* line 200, ../scss/main.scss */
+.ui-datepicker-calendar {
+  width: 180px;
+}
+
+/* line 201, ../scss/main.scss */
 .ui-datepicker-calendar thead th {
   padding-top: 10px;
   font-weight: normal;
   font-size: 14px;
 }
 
-/* line 201, ../scss/main.scss */
+/* line 202, ../scss/main.scss */
 .ui-datepicker-calendar table {
   background: white;
 }
 
-/* line 202, ../scss/main.scss */
+/* line 203, ../scss/main.scss */
 .ui-datepicker-calendar td a {
   background: none !important;
   border: none !important;
@@ -344,28 +350,24 @@ a.button:active {
   font-size: 15px;
 }
 
-/* line 203, ../scss/main.scss */
+/* line 204, ../scss/main.scss */
 .ui-datepicker-prev {
   position: absolute;
-  text-indent: -9999px;
   left: 8px;
-  top: 14px;
-  width: 0;
-  height: 0;
-  border-top: 5px solid transparent;
-  border-bottom: 5px solid transparent;
-  border-right: 5px solid #399DEB;
+  top: 18px;
+  width: 5px;
+  height: 5px;
+  background: #999;
+  text-indent: -9999px;
 }
 
-/* line 204, ../scss/main.scss */
+/* line 205, ../scss/main.scss */
 .ui-datepicker-next {
   position: absolute;
-  text-indent: -9999px;
   right: 8px;
-  top: 14px;
-  width: 0;
-  height: 0;
-  border-top: 5px solid transparent;
-  border-bottom: 5px solid transparent;
-  border-left: 5px solid #399DEB;
+  top: 18px;
+  width: 5px;
+  height: 5px;
+  background: #999;
+  text-indent: -9999px;
 }

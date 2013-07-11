@@ -30,10 +30,7 @@ Map.prototype = {
       cartodb.createLayer(
         self.map,
         'http://aliburchard.cartodb.com/api/v2/viz/66bdc0fa-ea47-11e2-aa4b-e57f5a8df689/viz.json'
-      )
-        .done(function(layer){
-          self.map.addLayer(layer);
-        });
+      ).addTo(self.map)
 
     });
 

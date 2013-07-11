@@ -675,3 +675,27 @@
 2013-07-11 16:24:08 overwrite css/main.css 
 2013-07-11 16:24:20 identical css/app.css 
 2013-07-11 16:24:20 identical css/main.css 
+2013-07-11 16:32:43 overwrite css/app.css 
+2013-07-11 16:32:44 overwrite css/main.css 
+2013-07-11 16:32:50 overwrite css/app.css 
+2013-07-11 16:32:51 overwrite css/main.css 
+2013-07-11 16:33:08 overwrite css/app.css 
+2013-07-11 16:33:09 overwrite css/main.css 
+2013-07-11 16:33:20 identical css/app.css 
+2013-07-11 16:33:20 identical css/main.css 
+2013-07-11 16:33:55 overwrite css/app.css 
+2013-07-11 16:33:55 overwrite css/main.css 
+2013-07-11 16:34:44 overwrite css/app.css 
+2013-07-11 16:34:44 overwrite css/main.css 
+2013-07-11 16:35:54 overwrite css/app.css 
+2013-07-11 16:35:54 overwrite css/main.css 
+2013-07-11 16:36:00 overwrite css/app.css 
+2013-07-11 16:36:00 overwrite css/main.css 
+2013-07-11 16:36:26     error scss/app.scss (Line 198 of scss/main.scss: Invalid CSS after "...th:180px height": expected ";", was ":38px; backgrou...")
+2013-07-11 16:36:26 overwrite css/app.css 
+2013-07-11 16:36:26     error scss/main.scss (Line 198: Invalid CSS after "...th:180px height": expected ";", was ":38px; backgrou...")
+2013-07-11 16:36:26 overwrite css/main.css 
+2013-07-11 16:36:31 overwrite css/app.css 
+2013-07-11 16:36:31 overwrite css/main.css 
+2013-07-11 16:36:52 overwrite css/app.css 
+2013-07-11 16:36:52 overwrite css/main.css 
